@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import 'src/styles/wdc.css';
+import './styles/wdc.css';
 
 function WeekDayClock() {
   const [dateTime, setDateTime] = useState(new Date());
