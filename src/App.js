@@ -1,10 +1,10 @@
 import React from 'react';
-import WeatherApp from './WeatherApp';
+import WeekDayClock from './segments/weekDayClock.js';
 
 function App() {
   return (
     <div className="App">
-      <WeatherApp />
+      <WeekDayClock />
     </div>
   );
 }
