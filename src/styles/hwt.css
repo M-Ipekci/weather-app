@@ -1,0 +1,22 @@
+.hourly-weather-table {
+    margin-top: 20px;
+  }
+
+  .hourly-weather-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .hourly-weather-table th, .hourly-weather-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  .hourly-weather-table th {
+    background-color: #f2f2f2;
+  }
+
+  .error-message {
+    color: red;
+  }
