@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './styles/hwt.css';
+import '../styles/hwt.css';
 
 function HourlyWeatherTable() {
   const [hourlyData, setHourlyData] = useState([]);

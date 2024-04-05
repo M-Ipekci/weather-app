@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './styles/cw.css';
+import '../styles/cw.css';
 
 function CurrentWeather() {
   const [weatherData, setWeatherData] = useState(null);
