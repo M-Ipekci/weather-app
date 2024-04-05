@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/hwt.css';
+import '../styles/hwt.css'; // Importing CSS file for HourlyWeatherTable component
 
 function HourlyWeatherTable() {
   const [hourlyData, setHourlyData] = useState([]);
@@ -28,7 +28,7 @@ function HourlyWeatherTable() {
     <div className="hourly-weather-table">
       {loading && <p>Loading...</p>}
       {error && <p className="error-message">{error}</p>}
-      {hourlyData.length > 0 && (
+      {hourlyData && hourlyData.length > 0 && ( // Check if hourlyData is truthy and has length
         <table>
           <thead>
             <tr>
