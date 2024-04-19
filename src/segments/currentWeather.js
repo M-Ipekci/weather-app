@@ -10,7 +10,7 @@ function CurrentWeather() {
     const fetchCurrentWeather = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=YOUR_LOCATION&appid=YOUR_API_KEY&units=imperial`);
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=California&appid=fcfc1f5ec859e9900765d5212ce8df5e&units=imperial`);
         const data = await response.json();
         setWeatherData(data);
         setLoading(false);
